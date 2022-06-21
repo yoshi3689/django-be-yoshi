@@ -11,7 +11,9 @@ SECRET_KEY=env('DJANGO_SECRET_KEY')
 DEBUG = env('DJANGO_DEBUG')
 
 # will add a domain name here
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    env('DJANGO_ALLOWED_HOST5')
+]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
