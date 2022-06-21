@@ -12,6 +12,7 @@ DEBUG = env('DJANGO_DEBUG')
 
 # will add a domain name here
 ALLOWED_HOSTS = [
+    '*',
     env('DJANGO_ALLOWED_HOST5')
 ]
 
