@@ -6,4 +6,4 @@ RUN pip3 install -r requirements.txt
 COPY . .
 
 # EXPOSE 8000
-CMD ["gunicorn", "core.wsgi", "--timeout", "100","--bind", "0.0.0.0:8000"]
+CMD ["gunicorn", "core.wsgi", "--timeout", 600,"--bind", "0.0.0.0:8000"]
