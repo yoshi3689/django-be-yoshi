@@ -8,7 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY=env('DJANGO_SECRET_KEY')
 
-DEBUG = env('DJANGO_DEBUG')
+DEBUG = True
 
 # will add a domain name here
 ALLOWED_HOSTS = [
